@@ -1,8 +1,9 @@
 title: Swift by Example
 description: >
   Reference for common things in Swift, on Linux.
-baseurl: ""
-url: "https://willhbr.net/swift-by-example"
+
+url: "https://willhbr.net"
+baseurl: "/swift-by-example"
 
 swift_version: 4.2
 

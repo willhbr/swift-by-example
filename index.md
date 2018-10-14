@@ -6,5 +6,5 @@ Inspired by [Go by Example](https://gobyexample.com). Aimed to give an overview 
 
 {% assign sorted = (site.pages | sort: 'example_number') %}
 {% for example in sorted %}{% if example.dir == "/examples/" %}
-+ [{{ example.title }}]({{ example.url }})
++ [{{ example.title }}]({{ example.url | relative_url }})
 {% endif %}{% endfor %}
