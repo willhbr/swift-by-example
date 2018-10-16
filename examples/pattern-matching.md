@@ -12,5 +12,8 @@ layout: example
   case .some(let x): 
   case foo as Bar:
 - destructuring
+  let (x, y) = tuple
 - in if/guard
+  matching enums
 - in loops
+  pull out tuples
