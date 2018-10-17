@@ -30,9 +30,11 @@ def test_example(file)
         pass += 1
       else
         puts "FAILED".red + ": #{file} line #{start_line}"
+        puts File.read(test_path)
         error += 1
       end
       start_line = nil
+      buffer = ''
     elsif start_line != nil
       buffer << line
     end
