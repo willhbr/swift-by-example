@@ -8,3 +8,7 @@ Inspired by [Go by Example](https://gobyexample.com). Aimed to give an overview 
 {% for example in sorted %}{% if example.dir == "/examples/" %}
 + [{{ example.title }}]({{ example.url | relative_url }})
 {% endif %}{% endfor %}
+
+---
+
+[One page]({{ '/onepage' | relative_url }})

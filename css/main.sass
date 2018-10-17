@@ -9,15 +9,18 @@ $heading-color: darken($text-color, 10%)
 $header-size: 2.2em
 $metadata-size: 1.25rem
 $title-size: 2em
-$footer-size: 0.8rem
+$footer-size: 0.9rem
 
 $blockquote-border-width: 3px
 $body-side-margin: 8px
 
+code
+  font-family: 'San Fransisco Mono', 'Anonymous Pro', 'Fira Code', monospace
+
 body
   background-color: $background-color
   color: $text-color
-  font-family: "San Fransisco", "Roboto", "Helvetica", sans-serif
+  font-family: 'San Fransisco', 'Roboto', 'Helvetica', sans-serif
   font-size: 16px
   font-weight: 300
   margin-left: $body-side-margin
@@ -87,15 +90,16 @@ footer
   font-size: $footer-size
   padding: 8px
   text-align: center
+  line-height: 0.6
 
 footer, footer a
   color: lighten($text-color, 30%)
 
 a.footnote:before
-  content: "["
+  content: '['
 
 a.footnote:after
-  content: "]"
+  content: ']'
 
 .button
   padding: 6px 8px
