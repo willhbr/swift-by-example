@@ -1,6 +1,6 @@
 ---
 title: Pattern Matching
-example_number: ??
+example_number: 5
 layout: example
 ---
 

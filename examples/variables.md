@@ -1,5 +1,5 @@
 ---
-title: Values
+title: Variables
 example_number: 3
 layout: example
 ---
