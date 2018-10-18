@@ -37,6 +37,9 @@ def test_example(file)
       buffer = ''
     elsif start_line != nil
       buffer << line
+    elsif content.start_with? 'skip_tests: true'
+      puts "Skipping tests on #{file}"
+      break
     end
   end
   [pass, error]
