@@ -29,6 +29,17 @@ let char: Character = "🔥"
 let long: UInt64 = 123
 ```
 
+All types can be suffixed with a question mark to mark them as optional, which means they can either have a value of their normal type or the empty `nil` value. Unlike other programming languages, `nil` is not a type itself or a special pointer location, each empty value knows the value of the type that is absent.
+
+```swift
+let maybeAbsent: Optional<Int> = 32
+print(type(of: maybeAbsent)) // prints Optional<Int>
+let perhapsMissing: Optional<Int> = nil
+print(type(of: perhapsMissing)) // prints Optional<Int>
+```
+
+You can't have a `nil` value without it having some type of a real value - even if that's `Any`.
+
 If you're not sure what the type of something is, you can check it using the `type(of:)` function. This is the type at runtime, not compile time - so it works on variables of type `Any`.
 
 ```swift
