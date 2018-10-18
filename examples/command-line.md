@@ -30,6 +30,8 @@ if let input = readLine() {
 }
 ```
 
+It will return `nil` if standard in is at an EOF, or has already been reached. You can leave the newline character on by setting `strippingNewline` to `false`.
+
 ```shell
 $ swift example.swift
 Write something: This is what I typed!
