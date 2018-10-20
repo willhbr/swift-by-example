@@ -27,6 +27,6 @@ printNumbersClosure([4, 5, 6])
 
 // Normal functions can be assigned to variables
 let read = readLine
-let line = try! read(true)
-print(line)
+let line = read(true)
+print(line!)
 ```
