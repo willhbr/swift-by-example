@@ -49,7 +49,7 @@ var data = Data(capacity: 100)
 for num in 0..<100 {
   data.append(UInt8(num))
 }
-data.write(to: path)
+try! data.write(to: path)
 ```
 
 This writes some mostly-printable characters to the file.

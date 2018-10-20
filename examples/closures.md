@@ -26,6 +26,7 @@ let printNumbers: ([Int]) -> () = { numbers in
 printNumbersClosure([4, 5, 6])
 
 // Normal functions can be assigned to variables
-let printFunction = print
-printFunction("Hello world")
+let read = readLine
+let line = try! read(true)
+print(line)
 ```
