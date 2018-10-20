@@ -23,7 +23,7 @@ let printNumbers: ([Int]) -> () = { numbers in
 }
 
 // Closures can be called like regular functions, but without argument labels:
-printNumbersClosure([4, 5, 6])
+printNumbers([4, 5, 6])
 
 // Normal functions can be assigned to variables
 let read = readLine
