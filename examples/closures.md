@@ -2,6 +2,7 @@
 title: Closures
 example_number: 6
 layout: example
+in_progress: true
 ---
 
 You can do closures. They capture values.

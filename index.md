@@ -6,7 +6,11 @@ Inspired by [Go by Example](https://gobyexample.com). Aimed to give an overview 
 
 {% assign sorted = (site.pages | sort: 'example_number') %}
 {% for example in sorted %}{% if example.dir == "/examples/" %}
+{% if example.in_progress %}
++ <span class="badge">WIP</span> [{{ example.title }}]({{ example.url | relative_url }})
+{% else %}
 + [{{ example.title }}]({{ example.url | relative_url }})
+{% endif %}
 {% endif %}{% endfor %}
 
 ---

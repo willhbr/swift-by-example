@@ -2,6 +2,7 @@
 title: Strings
 example_number: 9
 layout: example
+in_progress: true
 ---
 
 - indexing

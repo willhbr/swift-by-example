@@ -3,6 +3,7 @@ title: Variables
 example_number: 3
 layout: example
 skip_tests: true
+in_progress: true
 ---
 
 Mutability is baked in to every variable in Swift.

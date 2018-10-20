@@ -2,6 +2,7 @@
 title: Pattern Matching
 example_number: 5
 layout: example
+in_progress: true
 ---
 
 - switch statements
